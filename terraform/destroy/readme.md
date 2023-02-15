@@ -5,7 +5,7 @@ Runs terraform destroy
 ## Example Usage
 
 ```yaml
-  - uses: Chia-Network/actions/terraform/destroy@main
+  - uses: LloydMontgomeryGarmadon/actions/terraform/destroy@main
     with:
       workspace: mainnet-us-west-2
       varfile: vars/mainnet-us-west-2.tfvars

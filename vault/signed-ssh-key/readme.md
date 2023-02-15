@@ -5,7 +5,7 @@ Generates a new ssh keypair and then gets it signed by the [vault ssh CA](https:
 ## Example Usage
 
 ```yaml
-- uses: Chia-Network/actions/vault/signed-ssh-key@main
+- uses: LloydMontgomeryGarmadon/actions/vault/signed-ssh-key@main
   with:
     vault_url: ${{ secrets.VAULT_URL }}
     vault_token: ${{ env.VAULT_TOKEN }}

@@ -5,7 +5,7 @@ The underlying checkout issue is resolved, but if you need to commit back to a r
 
 ```yaml
 - name: Add safe git directory
-  uses: Chia-Network/actions/git-mark-workspace-safe@main
+  uses: LloydMontgomeryGarmadon/actions/git-mark-workspace-safe@main
 
 - name: Checkout Code
   uses: actions/checkout@v3

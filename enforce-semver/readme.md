@@ -7,5 +7,5 @@ Ensures the current version/tag is compliant with `Major.minor.patch` formatting
 - name: Checkout Code
   uses: actions/checkout@v2
   
-- uses: Chia-Network/actions/enforce-semver@main
+- uses: LloydMontgomeryGarmadon/actions/enforce-semver@main
 ```

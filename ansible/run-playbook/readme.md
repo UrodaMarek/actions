@@ -5,7 +5,7 @@ Runs an ansible playbook against an inventory of hosts
 ## Example Usage
 
 ```yaml
-- uses: Chia-Network/actions/ansible/run-playbook@main
+- uses: LloydMontgomeryGarmadon/actions/ansible/run-playbook@main
 with:
   ansible_dir: ansible
   playbook_file: playbook.yml
