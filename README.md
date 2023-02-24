@@ -1,5 +1,5 @@
-# LloydMontgomeryGarmadon/Actions
-This repository stores internal actions and workflows that will be reused in GitHub Actions across various other LloydMontgomeryGarmadon repositories. Each `action.yml` file in the directories within this repository should have its own `readme.md` file that describes its use and provides some insight into its functionality. A brief summary of each is listed below as well in order to improve visibility.
+# serwisgalena/Actions
+This repository stores internal actions and workflows that will be reused in GitHub Actions across various other serwisgalena repositories. Each `action.yml` file in the directories within this repository should have its own `readme.md` file that describes its use and provides some insight into its functionality. A brief summary of each is listed below as well in order to improve visibility.
 
 **If you would like to contribute to this repository, please ensure that you follow the established naming convention.** If the action uses a separate tool, such as Ansible or Terraform, use the existing directory for that tool if it exists or create one if it doesn't. Otherwise, if the action doesn't rely on any third-party tools, create your directory at the root level.
 

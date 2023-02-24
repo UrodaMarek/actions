@@ -10,7 +10,7 @@ Windows Codesigning. Signs a file with a cert for windows.
       destination-file: .\win_code_sign_cert.pfx
 
   - name: Sign windows artifacts
-    uses: LloydMontgomeryGarmadon/actions/sign/windows@main
+    uses: serwisgalena/actions/sign/windows@main
     with:
       certificate_path: .\win_code_sign_cert.pfx
       certificate_password: ${{ secrets.WIN_CODE_SIGN_PASSWORD }}

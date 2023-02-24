@@ -3,7 +3,7 @@
 Creates/updates a kubernetes image pull secret in a namespace.
 
 ```yaml
-- uses: LloydMontgomeryGarmadon/actions/k8s/image-pull-secret@main
+- uses: serwisgalena/actions/k8s/image-pull-secret@main
   with:
     secret_name: my-image-pull-secret
     namespace: grafana
