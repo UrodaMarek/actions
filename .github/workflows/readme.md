@@ -15,5 +15,5 @@ on:
 
 jobs:
   package:
-    uses: LloydMontgomeryGarmadon/actions/.github/workflows/docker-build.yaml@main
+    uses: serwisgalena/actions/.github/workflows/docker-build.yaml@main
 ```
