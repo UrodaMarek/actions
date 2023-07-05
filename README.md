@@ -1,7 +1,5 @@
 # serwisgalena/Actions
-This repository stores internal actions and workflows that will be reused in GitHub Actions across various other serwisgalena repositories. Each `action.yml` file in the directories within this repository should have its own `readme.md` file that describes its use and provides some insight into its functionality. A brief summary of each is listed below as well in order to improve visibility.
-
-**If you would like to contribute to this repository, please ensure that you follow the established naming convention.** If the action uses a separate tool, such as Ansible or Terraform, use the existing directory for that tool if it exists or create one if it doesn't. Otherwise, if the action doesn't rely on any third-party tools, create your directory at the root level.
+This repository stores internal actions and workflows that will be reused in GitHub Actions across various other serwisgalena repositories.
 
 ## Reusable Actions
 
@@ -21,8 +19,7 @@ Creates a venv in the runner temporary path that will be removed upon completion
 Ensures that the checked-out code has a GitHub tag that complies with semantic versioning in format `Major.minor.patch`. Supports up to three numeric digits per release type.
 
 ### git-mark-workspace-safe
-Marks the GitHub workspace as safe. See [bug report](https://github.com/actions/checkout/issues/760)
-The underlying checkout issue is resolved, but if you need to commit back to a repository, especially in a container, this action is still needed.
+Marks the GitHub workspace as safe.
 
 ### git-ssh-to-https
 Sets up the global git config to replace any ssh clone URLs with HTTPS URLs. This must be used after the checkout code action.
