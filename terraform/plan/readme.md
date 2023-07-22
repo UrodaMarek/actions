@@ -5,7 +5,7 @@ Runs terraform plan and shows the output.
 ## Example Usage
 
 ```yaml
-  - uses: serwisgalena/actions/terraform/plan@main
+  - uses: Cryptomines-Network/actions/terraform/plan@main
     with:
       workspace: mainnet-us-west-2
       varfile: vars/mainnet-us-west-2.tfvars

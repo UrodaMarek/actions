@@ -1,5 +1,5 @@
-# serwisgalena/Actions
-This repository stores internal actions and workflows that will be reused in GitHub Actions across various other serwisgalena repositories.
+# Cryptomines-Network/Actions
+This repository stores internal actions and workflows that will be reused in GitHub Actions across various other Cryptomines-Network repositories.
 
 ## Reusable Actions
 

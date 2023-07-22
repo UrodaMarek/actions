@@ -5,7 +5,7 @@ Runs terraform apply
 ## Example Usage
 
 ```yaml
-  - uses: serwisgalena/actions/terraform/apply@main
+  - uses: Cryptomines-Network/actions/terraform/apply@main
     with:
       workspace: mainnet-us-west-2
       varfile: vars/mainnet-us-west-2.tfvars

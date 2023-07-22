@@ -6,5 +6,5 @@ Sets up the global git config to replace any ssh clone URLs with HTTPS URLs. Thi
 - name: Checkout Code
   uses: actions/checkout@v2
 
-- uses: serwisgalena/actions/git-ssh-to-https@main
+- uses: Cryptomines-Network/actions/git-ssh-to-https@main
 ```

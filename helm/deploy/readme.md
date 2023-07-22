@@ -5,7 +5,7 @@ Deploys a helm chart to a k8s cluster.
 ## Local Chart
 
 ```yaml
-- uses: serwisgalena/actions/helm/deploy@main
+- uses: Cryptomines-Network/actions/helm/deploy@main
   with:
     namespace: k8s-namespace
     app_name: "my-k8s-app-name"
@@ -16,7 +16,7 @@ Deploys a helm chart to a k8s cluster.
 ## Remote Chart
 
 ```yaml
-- uses: serwisgalena/actions/helm/deploy@main
+- uses: Cryptomines-Network/actions/helm/deploy@main
   with:
     namespace: k8s-namespace
     app_name: "my-k8s-app-name"

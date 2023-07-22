@@ -6,7 +6,7 @@ Get ephemeral AWS credentials from vault. [AWS Secret Engine](https://www.vaultp
 
 ```yaml
 - name: Get ephemeral aws credentials
-  uses: serwisgalena/actions/vault/aws-sts@main
+  uses: Cryptomines-Network/actions/vault/aws-sts@main
   with:
     vault_url: ${{ secrets.VAULT_URL }}
     vault_token: ${{ env.VAULT_TOKEN }}
