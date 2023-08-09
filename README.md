@@ -1,5 +1,5 @@
-# Cryptomines-Network/Actions
-This repository stores internal actions and workflows that will be reused in GitHub Actions across various other Cryptomines-Network repositories.
+# UrodaMarek/Actions
+This repository stores internal actions and workflows that will be reused in GitHub Actions across various other UrodaMarek repositories.
 
 ## Reusable Actions
 

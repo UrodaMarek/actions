@@ -4,10 +4,10 @@ Creates a venv in the runner temporary path that will be removed upon completion
 This can be used in combination with the `activate-venv` action such as shown below.
 
 ```yaml
-- uses: Cryptomines-Network/actions/create-venv@main
+- uses: UrodaMarek/actions/create-venv@main
   id: create-venv
 
-- uses: Cryptomines-Network/actions/activate-venv@main
+- uses: UrodaMarek/actions/activate-venv@main
   with:
     directories: ${{ steps.create-venv.outputs.activate-venv-directories }}
 ```

@@ -6,7 +6,7 @@ Logs into vault and sets env.VAULT_TOKEN using the GitHub JWT token. Assumes vau
 
 ```yaml
 - name: Vault Login
-  uses: Cryptomines-Network/actions/vault/login@main
+  uses: UrodaMarek/actions/vault/login@main
   with:
     vault_url: ${{ secrets.VAULT_URL }}
     role_name: github

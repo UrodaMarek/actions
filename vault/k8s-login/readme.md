@@ -6,7 +6,7 @@ This action assumes you already have a [PKI secret engine](https://www.vaultproj
 
 ```yaml
 - name: Login to k8s cluster
-  uses: Cryptomines-Network/actions/vault/k8s-login@main
+  uses: UrodaMarek/actions/vault/k8s-login@main
   with:
     vault_url: ${{ secrets.VAULT_URL }}
     vault_token: ${{ env.VAULT_TOKEN }}

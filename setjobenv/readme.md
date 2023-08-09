@@ -5,5 +5,5 @@ Sets usable env for all job steps based on payload in GitHub Event. To be ran im
 ```yaml
 - name: Checkout Code
   uses: actions/checkout@v2
-- uses: Cryptomines-Network/actions/setjobenv@main
+- uses: UrodaMarek/actions/setjobenv@main
 ```

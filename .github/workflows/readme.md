@@ -15,5 +15,5 @@ on:
 
 jobs:
   package:
-    uses: Cryptomines-Network/actions/.github/workflows/docker-build.yaml@main
+    uses: UrodaMarek/actions/.github/workflows/docker-build.yaml@main
 ```

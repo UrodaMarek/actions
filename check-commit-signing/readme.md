@@ -10,7 +10,7 @@ Historical commits already on both branches are not checked.
 This list of commits is identified using git's `...` diff option.
 
 ```yaml
-- uses: Cryptomines-Network/actions/check-commit-signing@main
+- uses: UrodaMarek/actions/check-commit-signing@main
 ```
 
 There are two options that can be passed, `target` and `source`.
